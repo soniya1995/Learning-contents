@@ -1,0 +1,56 @@
+1. Added Unimplemented methods inside the Interface
+2. Type the Documentation (use /** - Enter)
+3. Use the Keyword : implements 
+4. All the unimplemnted methods of an Interface has to be 
+   implemented in the implementation class 
+   (ie. the class that implements that Interface)
+5. The implementation class can have its own method in it too.
+6. Object instantiation cannot be done for an Interface.
+   ( Blank resume template)
+7. CLASS LEVEL MULTIPLE INHERITANCE IS NOT POSSIBLE
+   INTERFACE LEVEL MULTIPLE INHERITANCE IS POSSIBLE
+     ( do it with TWO INTERFACES)
+8. Inheritence - extends
+   A class can inherit and also implement, both at a time.
+Class inherits   class
+Class implements Interface
+Class extend,implment
+9. Variables in Interface
+ The variable in an interface is public, static, and final by default.
+ public : accesses by any class
+ final  : value cannot be changed
+ static : No need of object to call the variable
+
+If any variable in an interface is defined without public, 
+    static, and final keywords then, the compiler 
+     automatically adds the same.
+
+To add 
+        list.add("apple");
+        list.add("mango");
+        
+        To get Size:
+        list.size();
+        
+        To print:
+        System.out.println(list);
+        
+        Using get: should have index
+        
+        For(int i=0; int<listSize;i++){
+            System.out.println(list.get(i));
+        }
+        
+        Using for each:
+            No index value 
+            No reverse iteration
+        For(Datatype of source variable: sourcename)
+        for(String eachString: list){
+            System.out.println(eachString);
+        }
+        
+        To insert an element:
+        List.add(index,"value");
+        
+        To remove
+        List.remove(index)/remove("value")
