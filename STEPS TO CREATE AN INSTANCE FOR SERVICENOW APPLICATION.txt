@@ -1,0 +1,31 @@
+STEPS TO CREATE AN INSTANCE FOR SERVICENOW APPLICATION
+
+1.  Go to developer.servicenow.com
+2.  Click on Sign up and Start Building 
+3.  Enter firstname->Lastname->emailId->password->Enter text from the below image
+4.  Check the agreement checkbox and click sign up.
+5.  Go to your mailbox and click Verify Email from Service now mail
+6.  Click on the Sign In button from service now page.
+7.  Check your mail id and click next.
+8.  Click Sign in button
+9.  Select -> "Yes I need a developr oriented IDE" and click next
+10. Check on Developer CheckBox and Agreement Check box and Click Finish Setup.
+11. Copy the url,username,password for reference and click Open Instance
+12. Search as "user" in Filter navigator
+13. Select User from System Security.
+14. Select UserID from search dropdown and enter "admin" in search field and press enter
+15. Click on the first found admin from the list.
+16. Enter your new password in the Password field and click update
+17. Click Log out and enter your new password and logIn.
+
+
+
+WHAT CAN YOU DO, IF YOUR INSTANCE IS HYBERNATING?
+
+If your id got hybernated do the following steps to wake up.
+ a. Enter the url and you will directed to the instance hibernating page.
+ b. Click on Sign in button.
+ c. Enter the emailid and password associated with the created instance.
+ d. Click on Sign in
+ e. After waking up the instance click Start Building
+ f. Enter your userName and password and click logIn.
